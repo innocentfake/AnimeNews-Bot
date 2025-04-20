@@ -6,6 +6,6 @@ BOT_TOKEN = "7957115059:AAHJ8yL-4wEOhc5PspgpuS7wz7fSbbK2qKA" #Bot Token get it f
 URL_A = "https://myanimelist.net/" #News RSS Feed Url 1
 URL_B = "https://www.crunchyroll.com" #News RSS Feed Url 2
 START_PIC = "http://postimg.cc/68vfZ3c4" #Startup Pic
-MONGO_URI = "mongodb://thakareankit2005:Asthakare%23123@animenews-shard-00-00.trqlvgv.mongodb.net:27017,animenews-shard-00-01.trqlvgv.mongodb.net:27017,animenews-shard-00-02.trqlvgv.mongodb.net:27017/?ssl=true&replicaSet=atlas-13xid1-shard-0&authSource=admin&retryWrites=true&w=majority&appName=Animenews"
- #Databse uri get it from https://www.mongodb.com/
+MONGO_URI = "mongodb+srv://thakareankit2005:Asthakare%23123@animenews.trqlvgv.mongodb.net/?retryWrites=true&w=majority&appName=Animenews"
+https://www.mongodb.com/
 ADMINS = "5455664988" #Admin ID
