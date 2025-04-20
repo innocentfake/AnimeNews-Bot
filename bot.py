@@ -47,8 +47,8 @@ async def start(client, message):
     chat_id = message.chat.id
     buttons = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("ᴍᴀɪɴ ʜᴜʙ", url="https://t.me/Manga_Sect"),
-            InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ GC", url="Manga_SectGC"),
+            InlineKeyboardButton("Main Channel", url="https://t.me/Manga_Sect"),
+            InlineKeyboardButton("Support GC", url="Manga_SectGC"),
         ],
         [
             InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/darkxside78"),
