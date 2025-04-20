@@ -1,6 +1,6 @@
 aiohttp
 pyrogram
-python-m pip install "pymongo[srv]"
+pymongo 
 python-dotenv
 flask
 tgcrypto
