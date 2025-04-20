@@ -6,6 +6,7 @@ import subprocess
 import threading
 import pymongo
 import feedparser
+import gunicorn 
 from config import API_ID, API_HASH, BOT_TOKEN, URL_A, START_PIC, MONGO_URI, ADMINS
 
 from webhook import start_webhook
@@ -47,8 +48,8 @@ async def start(client, message):
     chat_id = message.chat.id
     buttons = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("ᴍᴀɪɴ ʜᴜʙ", url="https://t.me/Bots_Nation"),
-            InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Bots_Nation_Support"),
+            InlineKeyboardButton("ᴍᴀɪɴ ʜᴜʙ", url="https://t.me/Manga_sect"),
+            InlineKeyboardButton("ꜱᴜᴩᴩᴏʀᴛ ᴄʜᴀɴɴᴇʟ", url="https://t.me/Manga_sectgc"),
         ],
         [
             InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴩᴇʀ", url="https://t.me/darkxside78"),
