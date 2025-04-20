@@ -6,3 +6,4 @@ flask
 tgcrypto
 feedparser
 gunicorn
+dnspython
